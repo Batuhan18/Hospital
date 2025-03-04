@@ -1,13 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B9AB37BE-55E7-4BDB-9508-DA060D6A617C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patient", "Patient", "{F8581852-5BAA-4A13-A2E8-E08BE2E98189}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Patient", "Services\Patient\Hospital.Patient\Hospital.Patient.csproj", "{ABE343E6-BA03-4935-8FC2-DEA95F016EB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Employee", "Employee", "{A0273B35-0D81-42D1-ADEE-35EF6CBBB7EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Employee", "Services\Employee\Hospital.Employee\Hospital.Employee.csproj", "{BBED683F-1799-45FC-B895-7BEFD858C6DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prescription", "Prescription", "{C99C50F1-0BB5-45CE-8C19-ED696535E151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Prescription", "Services\Prescription\Hospital.Prescription\Hospital.Prescription.csproj", "{BAD62944-2ABA-4D62-B8C1-FDC19B2514B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +27,14 @@ Global
 		{ABE343E6-BA03-4935-8FC2-DEA95F016EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABE343E6-BA03-4935-8FC2-DEA95F016EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABE343E6-BA03-4935-8FC2-DEA95F016EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBED683F-1799-45FC-B895-7BEFD858C6DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBED683F-1799-45FC-B895-7BEFD858C6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBED683F-1799-45FC-B895-7BEFD858C6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBED683F-1799-45FC-B895-7BEFD858C6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD62944-2ABA-4D62-B8C1-FDC19B2514B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD62944-2ABA-4D62-B8C1-FDC19B2514B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD62944-2ABA-4D62-B8C1-FDC19B2514B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD62944-2ABA-4D62-B8C1-FDC19B2514B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,5 +42,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F8581852-5BAA-4A13-A2E8-E08BE2E98189} = {B9AB37BE-55E7-4BDB-9508-DA060D6A617C}
 		{ABE343E6-BA03-4935-8FC2-DEA95F016EB4} = {F8581852-5BAA-4A13-A2E8-E08BE2E98189}
+		{A0273B35-0D81-42D1-ADEE-35EF6CBBB7EA} = {B9AB37BE-55E7-4BDB-9508-DA060D6A617C}
+		{BBED683F-1799-45FC-B895-7BEFD858C6DD} = {A0273B35-0D81-42D1-ADEE-35EF6CBBB7EA}
+		{C99C50F1-0BB5-45CE-8C19-ED696535E151} = {B9AB37BE-55E7-4BDB-9508-DA060D6A617C}
+		{BAD62944-2ABA-4D62-B8C1-FDC19B2514B0} = {C99C50F1-0BB5-45CE-8C19-ED696535E151}
 	EndGlobalSection
 EndGlobal
